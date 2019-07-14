@@ -1,0 +1,534 @@
+*{
+    box-sizing: border-box;
+} 
+
+body{
+    background: #121920;
+}
+
+.contenedor{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 581px;
+    width: 1280px;
+}
+
+.contenedor input {
+    display: none;
+}
+
+.contenedor img{
+    z-index: -1;
+}
+
+/*    ------------------ objeto fila 1 ---------------------- */
+
+.obj-fila1{
+    width: 65px;
+    height: 65px;
+    z-index: 2;    
+    border: solid 1px white;
+    transform: translateY(65px);
+    position: absolute;
+    top: 0;
+    cursor: pointer;
+}
+
+.seleccion-fila1{
+    width: 1280px;
+    height: 65px;
+    background: rgba(0, 225, 255, 0);
+    z-index: 1;    
+    transform: translate(0px,65px);
+    position: absolute;
+    top: 0;
+}
+
+#f1:checked ~ .seleccion-fila1{
+    background-color: rgba(0, 0, 0, 0.6);
+    border: solid 1px #FFF;
+    box-shadow: 0px 0px 7px #FFF;
+}
+
+
+/*    ------------------ objeto fila 2 ---------------------- */
+
+.obj-fila2{
+    width: 65px;
+    height: 65px;
+    z-index: 2;    
+    border: solid 1px white;
+    transform: translateY(130px);
+    position: absolute;
+    top: 0;
+    cursor: pointer;
+}
+
+.seleccion-fila2{
+    width: 1280px;
+    height: 65px;
+    background: rgba(0, 225, 255, 0);
+    z-index: 1;    
+    transform: translate(0px,130px);
+    position: absolute;
+    top: 0;
+}
+
+#f2:checked ~ .seleccion-fila2{
+    background-color: rgba(0, 0, 0, 0.6);
+    border: solid 1px #FFF;
+    box-shadow: 0px 0px 7px #FFF;
+}
+
+
+/*    ------------------ objeto fila 3 ---------------------- */
+
+.obj-fila3{
+    width: 65px;
+    height: 65px;
+    z-index: 2;    
+    border: solid 1px white;
+    transform: translateY(195px);
+    position: absolute;
+    top: 0;
+    cursor: pointer;
+}
+
+.seleccion-fila3{
+    width: 1280px;
+    height: 65px;
+    background: rgba(0, 225, 255, 0);
+    z-index: 1;    
+    transform: translate(0px,195px);
+    position: absolute;
+    top: 0;
+}
+
+#f3:checked ~ .seleccion-fila3{
+    background-color: rgba(0, 0, 0, 0.6);
+    border: solid 1px #FFF;
+    box-shadow: 0px 0px 7px #FFF;
+}
+
+
+/*    ------------------ objeto fila 4 ---------------------- */
+
+
+.obj-fila4{
+    width: 65px;
+    height: 65px;
+    z-index: 2;    
+    border: solid 1px white;
+    transform: translateY(260px);
+    position: absolute;
+    top: 0;
+    cursor: pointer;
+}
+
+.seleccion-fila4{
+    width: 1280px;
+    height: 65px;
+    background: rgba(0, 225, 255, 0);
+    z-index: 1;   
+    transform: translate(0px,260px);
+    position: absolute;
+    top: 0;
+}
+
+#f4:checked ~ .seleccion-fila4{
+    background-color: rgba(0, 0, 0, 0.6);
+    border: solid 1px #FFF;
+    box-shadow: 0px 0px 7px #FFF;
+}
+
+
+/*    ------------------ objeto fila 5 ---------------------- */
+
+
+.obj-fila5{
+    width: 65px;
+    height: 65px;
+    z-index: 2;    
+    border: solid 1px white;
+    transform: translateY(325px);
+    position: absolute;
+    top: 0;
+    cursor: pointer;
+}
+
+.seleccion-fila5{
+    width: 1280px;
+    height: 65px;
+    background: rgba(0, 225, 255, 0);
+    z-index: 1;    
+    transform: translate(0px,325px);
+    position: absolute;
+    top: 0;
+}
+
+#f5:checked ~ .seleccion-fila5{
+    background-color: rgba(0, 0, 0, 0.6);
+    border: solid 1px #FFF;
+    box-shadow: 0px 0px 7px #FFF;
+}
+
+
+
+/*    ------------------ objeto fila 6 ---------------------- */
+
+
+.obj-fila6{
+    width: 65px;
+    height: 65px;
+    z-index: 2;    
+    border: solid 1px white;
+    transform: translateY(390px);
+    position: absolute;
+    top: 0;
+    cursor: pointer;
+}
+
+.seleccion-fila6{
+    width: 1280px;
+    height: 65px;
+    background: rgba(0, 225, 255, 0);
+    z-index: 1;    
+    transform: translate(0px,390px);
+    position: absolute;
+    top: 0;
+}
+
+#f6:checked ~ .seleccion-fila6{
+    background-color: rgba(0, 0, 0, 0.6);
+    border: solid 1px #FFF;
+    box-shadow: 0px 0px 7px #FFF;
+}
+
+
+
+/*    ------------------ objeto fila 7 ---------------------- */
+
+
+.obj-fila7{
+    width: 65px;
+    height: 65px;
+    z-index: 2;    
+    border: solid 1px white;
+    transform: translateY(455px);
+    position: absolute;
+    top: 0;
+    cursor: pointer;
+}
+
+.seleccion-fila7{
+    width: 1280px;
+    height: 65px;
+    background: rgba(0, 225, 255, 0);
+    z-index: 1;    
+    transform: translate(0px,455px);
+    position: absolute;
+    top: 0;
+}
+
+#f7:checked ~ .seleccion-fila7{
+    background-color: rgba(0, 0, 0, 0.6);
+    border: solid 1px #FFF;
+    box-shadow: 0px 0px 7px #FFF;
+}
+
+
+/*    ------------------ objeto fila 8 ---------------------- */
+
+
+.obj-fila8{
+    width: 65px;
+    height: 65px;
+    z-index: 2;    
+    border: solid 1px white;
+    transform: translateY(520px);
+    position: absolute;
+    top: 0;
+    cursor: pointer;
+}
+
+.seleccion-fila8{
+    width: 1280px;
+    height: 65px;
+    background: rgba(0, 225, 255, 0);
+    z-index: 1;    
+    transform: translate(0px,520px);
+    position: absolute;
+    top: 0;
+}
+
+#f8:checked ~ .seleccion-fila8{
+    background-color: rgba(0, 0, 0, 0.6);
+    border: solid 1px #FFF;
+    box-shadow: 0px 0px 7px #FFF;
+}
+
+
+
+
+
+/*    ------------------ objeto COLUMNA 1 ---------------------- */
+
+
+.obj-columna1{
+    width: 152px;
+    height: 65px;
+    background: rgba(255, 241, 211, 0.205);
+    z-index: 2;    
+    border: solid 1px white;
+    transform: translateX(65px);
+    position: absolute;
+    top: 0;
+    cursor: pointer;
+}
+
+.seleccion-columna1{
+    width: 152px;
+    height: 586px;    
+    z-index: 1;    
+    position: absolute;
+    top: 0;
+    transform: translate(65px,0px);
+}
+
+#c1:checked ~ .seleccion-columna1{
+    background-color: rgba(0, 0, 0, 0.6);
+    border: solid 1px #FFF;
+    box-shadow: 0px 0px 7px #FFF;
+}
+
+
+/*    ------------------ objeto COLUMNA 2 ---------------------- */
+
+
+.obj-columna2{
+    width: 152px;
+    height: 65px;
+    background: rgba(255, 241, 211, 0.205);
+    z-index: 2;    
+    border: solid 1px white;
+    transform: translateX(217px);
+    position: absolute;
+    top: 0;
+    cursor: pointer;
+}
+
+.seleccion-columna2{
+    width: 152px;
+    height: 586px;    
+    z-index: 1;    
+    position: absolute;
+    top: 0;
+    transform: translate(217px,0px);
+}
+
+#c2:checked ~ .seleccion-columna2{
+    background-color: rgba(0, 0, 0, 0.6);
+    border: solid 1px #FFF;
+    box-shadow: 0px 0px 7px #FFF;
+}
+
+
+/*    ------------------ objeto COLUMNA 3 ---------------------- */
+
+
+.obj-columna3{
+    width: 152px;
+    height: 65px;
+    background: rgba(255, 241, 211, 0.205);
+    z-index: 2;    
+    border: solid 1px white;
+    transform: translateX(369px);
+    position: absolute;
+    top: 0;
+    cursor: pointer;
+}
+
+.seleccion-columna3{
+    width: 152px;
+    height: 586px;    
+    z-index: 1;    
+    position: absolute;
+    top: 0;
+    transform: translate(369px,0px);
+}
+
+#c3:checked ~ .seleccion-columna3{
+    background-color: rgba(0, 0, 0, 0.6);
+    border: solid 1px #FFF;
+    box-shadow: 0px 0px 7px #FFF;
+}
+
+
+
+/*    ------------------ objeto COLUMNA 4 ---------------------- */
+
+
+.obj-columna4{
+    width: 152px;
+    height: 65px;
+    background: rgba(255, 241, 211, 0.205);
+    z-index: 2;    
+    border: solid 1px white;
+    transform: translateX(521px);
+    position: absolute;
+    top: 0;
+    cursor: pointer;
+}
+
+.seleccion-columna4{
+    width: 152px;
+    height: 586px;    
+    z-index: 1;    
+    position: absolute;
+    top: 0;
+    transform: translate(521px,0px);
+}
+
+#c4:checked ~ .seleccion-columna4{
+    background-color: rgba(0, 0, 0, 0.6);
+    border: solid 1px #FFF;
+    box-shadow: 0px 0px 7px #FFF;
+}
+
+
+
+
+/*    ------------------ objeto COLUMNA 5 ---------------------- */
+
+
+.obj-columna5{
+    width: 152px;
+    height: 65px;
+    background: rgba(255, 241, 211, 0.205);
+    z-index: 2;    
+    border: solid 1px white;
+    transform: translateX(673px);
+    position: absolute;
+    top: 0;
+    cursor: pointer;
+}
+
+.seleccion-columna5{
+    width: 152px;
+    height: 586px;    
+    z-index: 1;    
+    position: absolute;
+    top: 0;
+    transform: translate(673px,0px);
+}
+
+#c5:checked ~ .seleccion-columna5{
+    background-color: rgba(0, 0, 0, 0.6);
+    border: solid 1px #FFF;
+    box-shadow: 0px 0px 7px #FFF;
+}
+
+
+
+
+
+
+/*    ------------------ objeto COLUMNA 6 ---------------------- */
+
+
+.obj-columna6{
+    width: 152px;
+    height: 65px;
+    background: rgba(255, 241, 211, 0.205);
+    z-index: 2;    
+    border: solid 1px white;
+    transform: translateX(825px);
+    position: absolute;
+    top: 0;
+    cursor: pointer;
+}
+
+.seleccion-columna6{
+    width: 152px;
+    height: 586px;    
+    z-index: 1;    
+    position: absolute;
+    top: 0;
+    transform: translate(825px,0px);
+}
+
+#c6:checked ~ .seleccion-columna6{
+    background-color: rgba(0, 0, 0, 0.6);
+    border: solid 1px #FFF;
+    box-shadow: 0px 0px 7px #FFF;
+}
+
+
+
+/*    ------------------ objeto COLUMNA 7 ---------------------- */
+
+
+.obj-columna7{
+    width: 152px;
+    height: 65px;
+    background: rgba(255, 241, 211, 0.205);
+    z-index: 2;    
+    border: solid 1px white;
+    transform: translateX(977px);
+    position: absolute;
+    top: 0;
+    cursor: pointer;
+}
+
+.seleccion-columna7{
+    width: 152px;
+    height: 586px;    
+    z-index: 1;    
+    position: absolute;
+    top: 0;
+    transform: translate(977px,0px);
+}
+
+#c7:checked ~ .seleccion-columna7{
+    background-color: rgba(0, 0, 0, 0.6);
+    border: solid 1px #FFF;
+    box-shadow: 0px 0px 7px #FFF;
+}
+
+
+
+
+/*    ------------------ objeto COLUMNA 8 ---------------------- */
+
+
+.obj-columna8{
+    width: 152px;
+    height: 65px;
+    background: rgba(255, 241, 211, 0.205);
+    z-index: 2;    
+    border: solid 1px white;
+    transform: translateX(1129px);
+    position: absolute;
+    top: 0;
+    cursor: pointer;
+}
+
+.seleccion-columna8{
+    width: 152px;
+    height: 586px;    
+    z-index: 1;    
+    position: absolute;
+    top: 0;
+    transform: translate(1129px,0px);
+}
+
+#c8:checked ~ .seleccion-columna8{
+    background-color: rgba(0, 0, 0, 0.6);
+    border: solid 1px #FFF;
+    box-shadow: 0px 0px 7px #FFF;
+}
+
+
+
