@@ -65,6 +65,28 @@ body{
 .contenedor img{
     z-index: -1;
 }
+.btn-volver{
+    position: absolute;
+}
+.btn-volver a{    
+    position: absolute;
+    color: white;
+    background: #272726;
+    text-align: center;
+    width: 65px;
+    height: 65px;
+    border: 2px solid #FFF;
+    box-shadow: 0px 0px 7px #FFF;
+    text-decoration: none;
+    cursor: pointer;
+    padding-top: .5rem;
+}
+
+.btn-volver a:hover{
+    background: #dac6d3;
+    text-shadow: 0px 0px 24px #b38ae2;
+    color: #ffffff;
+}
 
 /*    ------------------ objeto fila 1 ---------------------- */
 
